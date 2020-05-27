@@ -1,0 +1,46 @@
+{
+    "name": "Spin Body Learn",
+    "short_name": "JOKEM Gaming Software", 
+    "description": "Spin Body Learn, aprendizaje y diversión en una sola aplicación" ,
+    "background_color": "#2B2B2B",
+    "theme_color": "rgb(95, 158, 160)",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-CR",
+    "icons": [
+      {
+        "src": "Imagenes/logo1024.png",
+        "sizes": "4267x4267",
+        "type": "image/png"
+      },
+      {
+        "src": "Imagenes/logo512.png",
+        "sizes": "2134x2134",
+        "type": "image/png"
+      },
+      {
+        "src": "Imagenes/logo256.png",
+        "sizes": "1067x1067",
+        "type": "image/png"
+      }, 
+     
+       {
+        "src": "Imagenes/logo128.png",
+        "sizes": "535x534",
+        "type": "image/png"
+      },
+      {
+        "src": "Imagenes/logo64.png",
+        "sizes": "268x268",
+        "type": "image/png"
+      },
+      {
+        "src": "Imagenes/logo32.png",
+        "sizes": "134x134",
+        "type": "image/png"
+      }
+    
+    ]
+}
