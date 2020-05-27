@@ -30,6 +30,7 @@ body{
 }
 
 .barraPrincipal{
+    
     width: 100%;
     height: auto;
     overflow: hidden;
@@ -45,6 +46,7 @@ body{
     float: left;
 }
 header nav{
+    
     max-width:100%;
     float: right;
     line-height: normal;
@@ -56,6 +58,7 @@ header nav{
 }
 
 header nav a{
+    
     max-width:100%;
 	height: calc(5em + 1vw);
     display: inline-block;
@@ -77,7 +80,8 @@ header nav a:hover{
     width: 98%;
 }
 .wrapper div img{
-    margin-left: 5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -136,29 +140,26 @@ footer div{
 /* ----------------------------------ESTILO PARA DISPOSITIVOS MÓVILES----------------------*/
 
 
-@media all and (max-width: 1112px) {
+@media screen and (max-width: 1112px) {
 .wrapper{
     width: 100%;
     
 }
 .logo{
-    width: 300px;
+    width:700px;
     
-}
-.wrapper div img{
-    margin-left: auto;
-    margin-right: auto;
 }
 .barraPrincipal img{
     max-width: unset;
     float: none;
     display: block;
-    height: 300px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
     }
 
 header nav{
+   
     min-width: 10px;
     width: 100%;
     max-width: auto;
