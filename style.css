@@ -74,18 +74,17 @@ header nav a:hover{
 }
 
 .wrapper{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: auto;
-    margin: auto;
-    overflow: hidden;
+    width: 98%;
+}
+.wrapper div img{
+    margin-left: 5rem;
 }
 
+
 article{
-    width: 53%;
+    width: 55%;
     float: left;
-    padding-left: 10%;
+    padding-left: 7%;
 }
 
 section{
@@ -97,7 +96,6 @@ section{
 aside{
     float: right;
     width: 25%;
-    height: -100%;
     text-align: justify;
     margin-right: 10%;
     background:#45b39d;
@@ -141,21 +139,24 @@ footer div{
 @media all and (max-width: 1112px) {
 .wrapper{
     width: 100%;
-}
-.barraPrincipal div{
-    width: 100%;
-    display: block;
     
 }
-
-.barraPrincipal img{
-    width: 100%;
-    float: none;
-    display: block;
-    height: 110px;
+.logo{
+    width: 300px;
+    
+}
+.wrapper div img{
     margin-left: auto;
     margin-right: auto;
 }
+.barraPrincipal img{
+    max-width: unset;
+    float: none;
+    display: block;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    }
 
 header nav{
     min-width: 10px;
@@ -173,7 +174,7 @@ header nav a{
     text-align: center;
     padding: 0;
     line-height: 80px;
-    font-size: 1.7em;
+    font-size: 2.7em;
     font-weight: bold;
     width: 100%;
     height: 80%;
