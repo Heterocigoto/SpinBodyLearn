@@ -4,7 +4,7 @@
     
 }
 h1{
-    font-size: calc(2em + 1vw);
+    font-size: calc(1.8em + 1vw);
 }
 h2{
     font-size: calc(1.5em + 1vw);
@@ -17,11 +17,11 @@ h4{
     font-size: calc(0.8em + 1vw);
 }
 h5{
-    font-size: calc(0.3em + 1vw);
+    font-size: calc(0.6em + 1vw);
     margin-left: 10%
 }
 p{
-    font-size: calc(0.3em + 1vw);
+    font-size: calc(0.6em + 1vw);
     line-height: 2em;
 }
 
@@ -142,15 +142,17 @@ footer div{
 .wrapper{
     width: 100%;
 }
-.logo{
-    
-  
+.barraPrincipal div{
+    width: 100%;
+    display: block;
     
 }
+
 .barraPrincipal img{
+    width: 100%;
     float: none;
     display: block;
-    width: 100%;
+    height: 110px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -171,7 +173,7 @@ header nav a{
     text-align: center;
     padding: 0;
     line-height: 80px;
-    font-size: 1em;
+    font-size: 1.7em;
     font-weight: bold;
     width: 100%;
     height: 80%;
