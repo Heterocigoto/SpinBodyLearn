@@ -3,7 +3,7 @@
     "short_name": "JOKEM Gaming Software", 
     "description": "Spin Body Learn, aprendizaje y diversión en una sola aplicación" ,
     "background_color": "#2B2B2B",
-    "theme_color": "rgb(95, 158, 160)",
+    "theme_color": "#45b39d",
     "orientation": "portrait",
     "display": "standalone",
     "start_url": "./?utm_source=web_app_manifest",

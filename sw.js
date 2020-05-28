@@ -17,6 +17,7 @@ const cacheName = 'Que_Hora_Es_Version_1';
     'manifest.json'
  ];
  var contentToCache = appShellFiles;
+ 
  self.addEventListener('install', (e) => {
     console.log('[Service Worker] Instalado con éxito');
     e.waitUntil(
