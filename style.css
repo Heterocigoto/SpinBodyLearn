@@ -1,8 +1,10 @@
-*{margin: 0; 
+*{
+    margin: 0; 
     padding:0; 
     font-family: Arial, Helvetica, sans-serif;
     
 }
+
 h1{
     font-size: calc(1.8em + 1vw);
 }
@@ -146,20 +148,19 @@ footer div{
     
 }
 .logo{
-    width:700px;
+    width:250px;
     
 }
 .barraPrincipal img{
     max-width: unset;
     float: none;
     display: block;
-    height: 400px;
+    height:200px;
     margin-left: auto;
     margin-right: auto;
     }
 
 header nav{
-   
     min-width: 10px;
     width: 100%;
     max-width: auto;
@@ -181,8 +182,9 @@ header nav a{
     height: 80%;
 }
 article{
-    width: 100%;
+    width: 90%;
     float: none;
+    display: block;
     
 }
 aside{
